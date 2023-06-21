@@ -1,5 +1,5 @@
 <!-- this is the about page -->
-<div class="flex flex-col h-screen font-spg w-screen bg-base-100 md:p-10 p-6">
+<div class="flex flex-col sm:h-screen font-spg w-screen bg-base-100 md:p-10 p-6">
  <h1 class=" font-bold text-3xl p-4 pt-10 text-secondary ">About Me</h1>
  <p class=" text-lg p-4">
  I am an experienced Learning and Development professional with a strong foundation in Educational Technology. I possess a deep understanding of best practices and instructional design principles. I consistently stay updated with emerging trends and technologies in the industry, ensuring innovative and effective solutions. 
