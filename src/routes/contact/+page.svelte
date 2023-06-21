@@ -1,5 +1,6 @@
 <script>
-  import Contact from "../../components/contact-card.svelte"
+  // import ContactCard from "../../components/ContactCard.svelte"
+  import ContactCard from "./ContactCard.svelte"
 </script>
 <!-- this is the contact page -->
 <div class="hero min-h-screen bg-base-100 font-spg">
@@ -11,6 +12,7 @@
       <p class="text-lg">Drop me a line on <a href="https://uk.linkedin.com/in/vaidehi-martin-instructionaldesigner" class="btn p-0 btn-link normal-case" target="_blank">LinkedIn↗</a></p>
     </div>
 
-  <Contact />
+    <ContactCard />
+
   </div>
 </div>
