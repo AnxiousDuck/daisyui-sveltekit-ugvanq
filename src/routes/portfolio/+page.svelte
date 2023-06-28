@@ -3,7 +3,7 @@
   import Card from "./Card.svelte"
 </script>
 <!-- this is the portfolio page -->
-<div class="font-spg bg-base-100 min-h-screen">
+<div class="font-spg min-h-screen">
   <div class="flex flex-col justify-center w-screen p-4">
     <div class=" px-2">
       <p class="text-xl text-secondary p-0 pt-8 pb-4 font-bold">/portfolio</p>
