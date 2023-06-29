@@ -3,7 +3,7 @@
     <img src="https://media.licdn.com/dms/image/C4D03AQElw-0PlWTulA/profile-displayphoto-shrink_800_800/0/1641389748084?e=2147483647&v=beta&t=1kAvVpBufNtgBQLFZ5cqaE3pHN9i4WtC_nusFzvZS_A" class=" object-cover max-w-sm h-[60vh] rounded-lg shadow-2xl" />
     <div>
       <div class="py-6">
-        <p class="text-xl text-secondary p-1 py-2 font-bold">/about</p>
+        <p class="text-xl text-secondary p-1 py-2 font-bold">About</p>
         <h1 class=" text-5xl lg:text-6xl font-bold pb-4">Get to know more about me</h1>
       </div>
 

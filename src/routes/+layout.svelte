@@ -1,10 +1,12 @@
 <script>
 	import '../app.css';
   import Footer from "./Footer.svelte"
+
+  let linkedInLink = "https://uk.linkedin.com/in/vaidehi-martin-instructionaldesigner"
 </script>
 
 
-	<div class="navbar bg-secondary text-base-400 flex justify-between font-spg">
+	<div class="navbar bg-secondary text-base-400 flex justify-between font-spg ">
     <a href="/" class="btn btn-ghost normal-case text-xl lg:text-2xl">Vaidehi Martin</a>
   
 		<div class="dropdown dropdown-end lg:hidden z-20">
@@ -14,7 +16,7 @@
       <ul tabindex="0" class=" text-xl menu menu-sm dropdown-content mt-3 p-5 shadow bg-base-100 rounded-box w-52">
         <a href="/"><li>Home</li></a>
         <a href="/portfolio"><li>Portfolio</li></a>
-        <a href="/contact"><li>Contact</li></a>
+        <a href={linkedInLink} target="_blank"><li>LinkedIn</li></a>
       </ul>
     </div>
 
@@ -22,7 +24,7 @@
       <ul class="flex ">
         <a href="/"><li class="btn btn-ghost normal-case font-normal text-lg">Home</li></a>
         <a href="/portfolio"><li class="btn btn-ghost normal-case font-normal text-lg">Portfolio</li></a>
-        <a href="/contact"><li class="btn btn-ghost normal-case font-normal text-lg">Contact</li></a>
+        <a href={linkedInLink} target="_blank"><li class="btn btn-ghost normal-case font-normal text-lg">LinkedIn</li></a>
       </ul>
     </div>
 
